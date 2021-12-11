@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm install && ng test && ng build && tar -cf dist.zip dist",
+    "build": "ng build && tar -cf dist.zip dist",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
